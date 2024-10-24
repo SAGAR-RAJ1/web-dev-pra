@@ -1,0 +1,57 @@
+.card1{
+    width: 80vh;
+    height: auto;
+    border: 10
+px;
+    border-color: aqua;
+}
+.card{
+    width: 300px;
+    height: 400px;
+   
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ 
+}
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.image img{
+    width:250px;
+    padding:auto;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+
+}
+.captions span{
+    border: 2px solid rgb(46, 45, 45);
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+    margin-left: 25px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.captions h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 25px;
+    margin-top: 10px
+}
+.captions p{
+
+    margin-left: 25px;
+    margin-right: 10px;
+
+margin-top: 10px;
+
+
+}

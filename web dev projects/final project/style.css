@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(209, 236, 250);
+}
+
+.nav ul {
+  /*  background-color: rgb(255, 255, 255); */
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 208, 255),
+    rgb(211, 250, 255)
+  );
+
+  border: 2px solid rgb(0, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  height: 40px;
+}
+
+.nav ul li {
+  font-size: 20px;
+  margin: 8px;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  margin: 2px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer p {
+  margin: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.footer ul li {
+  margin: 4px;
+  background-color: rgb(180, 229, 253);
+  padding: 2px;
+  margin: 2px;
+}
+.logo {
+  height: 35px;
+  border: 2px solid;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 21px;
+  right: 7px;
+}
+.bg {
+  position: relative;
+}
+
+.main {
+  background-image: url(https://wallpapers.com/images/high/bgmi-comic-art-u4so75xmj6mb1gr1.webp);
+  background-size: max(1200px,100vw);
+  height: 65vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center top;
+    background-repeat: none;
+    object-position: top;
+    position: relative;
+}
+
+
+.box{
+  background-color: black;
+  height: 65vh;
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+
+}
+#BHAGWAN{
+ 
+  width: 80vw;
+ 
+  
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+align-items: center;  
+margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 10;
+  
+  
+
+}
